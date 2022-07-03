@@ -71,6 +71,16 @@ p {
     color: white;
     background-color: crimson;
 }
+
+.brand h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.brand h1 span {
+    color: crimson;
+}
 /* Hero Section */
 
 #hero {
@@ -88,8 +98,8 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: .15;
+    /* background-color: black; */
+    /* opacity: .15; */
     z-index: -1;
 }
 
@@ -330,10 +340,50 @@ p {
     font-weight: 500;
     margin-bottom: 5px;
 }
-
-
-
 /* End Contact Section */
+
+/* footer */
+#footer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+    min-height: 100px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer p {
+    color: white;
+    font-weight: 200;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(0);
+}
+/* end Footer */
 
 /* Keyframs */
 @keyframes text_reveal_box {
@@ -361,62 +411,24 @@ p {
 }
 /* Keygarms End */
 
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px){
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    h1 {
+        font-size: 6rem;
+    }
 
-
-
-/* #projects .project-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    /* Hero */
+/* #hero h1 {
+    font-size: 7rem;
 } */
+  /* End Hero */
+}
+/* End Media Query For Tablet */
 
-/* #projects .project-item {
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px;
-    border-radius: 10px;
-    background-image: url(./img/pexels-aleksandar-pasaric-2506861.jpg);
-    background-size: cover;
-    margin: 10px 5px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-} */
 
-/* #projects .project-item::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    /* background-color: black; */
-    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .8;
-    z-index: -1; */
-/* } */ 
-
-/* #projects .project-bottom .icon {
-    height: 80px;
-    width: 80px;
-    margin-bottom: 20px;
-} */
-
-/* #projects .project-item h2 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-} */
-
-/* #projects .project-item p {
-    color: white;
-    text-align: left;
-}   */ 
 
 
