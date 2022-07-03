@@ -52,6 +52,25 @@ p {
  .section-title span {
     color: crimson;
 }
+
+ .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: backgraound-color, color;
+}
+
+ .cta:hover {
+    color: white;
+    background-color: crimson;
+}
 /* Hero Section */
 
 #hero {
@@ -125,25 +144,6 @@ p {
 
 #hero h1:nth-child(3) span {
     animation-delay: 2.5s;
-}
-
-#hero .cta {
-    display: inline-block;
-    padding: 10px 30px;
-    color: crimson;
-    background-color: transparent;
-    border: 2px solid crimson;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: backgraound-color, color;
-}
-
-#hero .cta:hover {
-    color: white;
-    background-color: crimson;
 }
 /* End Hero Section */
 
@@ -253,7 +253,39 @@ p {
 }
 
 #about .col-right h2 {
-    
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+}
+
+#about .col-right p {
+    margin-bottom: 20px;
+}
+
+#about .col-right .cta {
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+#about .col-left .about-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
+}
+
+#about .col-left .about-img::after {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid crimson;
+    z-index: -1;
 }
 /* End About Section */
 
