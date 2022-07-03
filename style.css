@@ -421,6 +421,62 @@ p {
         font-size: 6rem;
     }
 
+    /* Project */
+#projects .project-item {
+    flex-direction: row;
+}
+
+#projects .project-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+    #projects .project-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #projcets .all-projects .project-info {
+        height: 100%;
+    }
+
+    #projcets .all-projects .project-img {
+        height: 100%;
+    }
+    /* End Project */
+
+    /* About */
+    #about .about {
+        flex-direction: row;
+    }
+
+    #about .col-left {
+        width: 600px;
+        height: 400px;
+        padding: 30px;
+    }
+
+    #about .about .col-left .about-img::after {
+        left: -45px;
+        top: 34px;
+        height: 98%;
+        width: 98%;
+        border: 10px solid crimson;
+    }
+
+    #about .col-right {
+        text-align: left;
+        padding: 30px;
+    }
+
+    #about .col-right h1 {
+        text-align: left;
+    }
+    /* End About */
+
+    /* Contact */
+
     /* Hero */
 /* #hero h1 {
     font-size: 7rem;
