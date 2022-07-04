@@ -192,15 +192,15 @@ p {
     flex-direction: column;
     width: 80%;
     margin: 20px auto;
-    overflow: hidden;
+    overflow: hidden;   
     border-radius: 10px;
 
 }
 
 #projects .project-info {
-    padding: 30px;
+    padding: 69px 23px;
     flex-basis: 50%;
-    height: 100%;
+    max-height: 400px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -460,7 +460,7 @@ p {
 
     #about .col-left {
         width: 600px;
-        height: 400px;
+        /* height: 400px; */
         padding: 30px;
     }
 
