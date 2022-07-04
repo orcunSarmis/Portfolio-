@@ -504,8 +504,21 @@ p {
         flex-direction: row;
     }
 
-    /* End Contact */
+    #contact .contact-item .icon {
+        height: 100px;
+        width: 100px;
+    }
 
+    #contact .contact-item .icon img {
+        object-fit: contain;
+    }
+
+    #contact .contact-item .contact-info {
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    /* End Contact */
     /* Hero */
 /* #hero h1 {
     font-size: 7rem;
@@ -513,6 +526,12 @@ p {
   /* End Hero */
 }
 /* End Media Query For Tablet */
+
+/* Media Query For Desktop */
+/* @media only screen and (min-width: 1200px) {
+    
+} */
+/* End Media Query For Desktop */
 
 
 
