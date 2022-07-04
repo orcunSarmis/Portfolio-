@@ -88,8 +88,18 @@ p {
 .brand h1 span {
     color: var(--cri);
 }
-/* Hero Section */
 
+/* Header  */
+#header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+/* End Header */
+/* Hero Section */
 #hero {
     background-image: url(./img/pexels-aleksandar-pasaric-2506861.jpg);
     background-size: cover;
