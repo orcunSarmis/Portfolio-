@@ -241,6 +241,7 @@ p {
     top: 0;
 }
 /* End Header */
+
 /* Hero Section */
 #hero {
     background-image: url(./img/pexels-aleksandar-pasaric-2506861.jpg);
@@ -391,7 +392,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .7;
+    opacity: .2;
 }
 
 #projects .project-img img {
@@ -600,7 +601,7 @@ p {
 }
 
     #projects .project-item {
-        height: 400px;
+        /* height: 400px; */
         margin: 0;
         width: 100%;
         border-radius: 0;
