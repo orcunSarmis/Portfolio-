@@ -5,6 +5,7 @@
     --lightgreen: #b9c6ae;
     --red:#d74e2a;
     --white: #fff; 
+    --cri: crimson;
   }
 
 * {
@@ -56,15 +57,15 @@ p {
 }
 
  .section-title span {
-    color: crimson;
+    color: var(--cri);
 }
 
  .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: crimson;
+    color: var(--cri);
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid var(--cri);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -75,7 +76,7 @@ p {
 
  .cta:hover {
     color: white;
-    background-color: crimson;
+    background-color: var(--cri);
 }
 
 .brand h1 {
@@ -85,7 +86,7 @@ p {
 }
 
 .brand h1 span {
-    color: crimson;
+    color: var(--cri);
 }
 /* Hero Section */
 
@@ -145,7 +146,7 @@ p {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: crimson;
+    background-color:var(--cri);
     animation: text_reveal_box 1s ease;
     animation-delay: .3s;
 }
@@ -300,7 +301,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid crimson;
+    border: 7px solid var(--cri);
     z-index: -1;
 }
 /* End About Section */
@@ -405,7 +406,7 @@ p {
 
 @keyframes text_reveal {
     100% {
-        color: crimson;
+        color: var(--cri);
     }
 }
 
@@ -468,7 +469,7 @@ p {
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: 10px solid var(--cri);
     }
 
     #about .col-right {
@@ -492,6 +493,15 @@ p {
 
     #contact .contact-items {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        margin: 0;
+    }
+
+    #contact .contact-item {
+        margin: 20px;
+        flex-direction: row;
     }
 
     /* End Contact */
