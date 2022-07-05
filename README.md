@@ -61,4 +61,5 @@ Ideas to make this portfolio better are welcome, email me first.
 ## Contact
 
 [Email](orcunsarmis@gmail.com)
+
 [Page](https://orcunsarmis.github.io/Portfolio-/)
