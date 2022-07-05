@@ -34,7 +34,7 @@ Creating a portfolio to showcase my work as a web developer.
 
 ## Installation
 
-[Portfolio](https://github.com/orcunSarmis/Portfolio-)
+[Portfolio Repo](https://github.com/orcunSarmis/Portfolio-)
 
 ## Built With
 
@@ -62,4 +62,4 @@ Ideas to make this portfolio better are welcome, email me first.
 
 [Email](orcunsarmis@gmail.com)
 
-[Page](https://orcunsarmis.github.io/Portfolio-/)
+[Deployed Portfolio](https://orcunsarmis.github.io/Portfolio-/)
