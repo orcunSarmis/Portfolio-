@@ -387,6 +387,7 @@ p {
 }
 
 #projects .project-img:after {
+    z-index: -1;
     content: '';
     position: absolute;
     left: 0;
